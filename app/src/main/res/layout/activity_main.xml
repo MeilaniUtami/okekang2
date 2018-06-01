@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#ffef15"
+    tools:context="id.co.meilani.okekang.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="OKE KANG"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/LOGIN"
+       android:textSize="20sp"
+       android:onClick="Pindah" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/REGISTER"
+        android:textSize="20sp"
+        android:onClick="Pindah2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EXIT"
+        android:textSize="20sp"
+        android:onClick="Pindah3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_register"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Daftar jadi mitra"
+        android:textColor="#ef0c1f"
+        android:textSize="15sp"
+        android:onClick="PindahMitra"/>
+
+</LinearLayout>
